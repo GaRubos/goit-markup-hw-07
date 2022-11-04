@@ -1,0 +1,57 @@
+.benefits {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.benefits-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefits .benefits-item {
+  width: 250px;
+}
+
+.benefits-icon {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--color-team-section--);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.benefits-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color--);
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.benefits-list .descr {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color--);
+  margin-bottom: 0;
+  margin-top: 0;
+}
