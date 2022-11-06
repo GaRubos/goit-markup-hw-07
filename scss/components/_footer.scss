@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--footer-bg-color--);
+  background-color: $footer-bg-color;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -11,7 +11,7 @@
 }
 
 .footer-logo {
-  color: var(--accent-color--);
+  color: $accent-color;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -23,7 +23,7 @@
   margin-bottom: 20px;
 }
 .footer-logo-studio {
-  color: var(--white-color--);
+  color: $white-color;
   margin-top: 0;
 }
 
@@ -54,7 +54,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--white-color--);
+  color: $white-color;
   text-decoration: none;
   margin-top: 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -63,7 +63,7 @@
 .address .link-address:hover,
 .footer-nav-list .link:hover,
 .footer-nav-list .link:focus {
-  color: var(--accent-color--);
+  color: $accent-color;
 }
 
 .footer-social-title {
@@ -72,7 +72,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--white-color--);
+  color: $white-color;
   margin: 0;
   margin-bottom: 20px;
 }
@@ -91,8 +91,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--footer-background-icon-color);
-  fill: var(--primary-bg-color--);
+  background-color: $footer-background-icon-color;
+  fill: $primary-bg-color;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -100,7 +100,7 @@
 
 .footer-social-item:hover,
 .footer-social-item:focus {
-  background-color: var(--accent-color--);
+  background-color: $accent-color;
 }
 
 /* Form */
@@ -115,7 +115,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-bg-color--);
+  color: $primary-bg-color;
   margin-bottom: 20px;
 }
 
@@ -123,7 +123,7 @@
   margin-right: 12px;
   padding: 15px;
   width: 358px;
-  background-color: var(--footer-bg-color--);
+  background-color: $footer-bg-color;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -141,25 +141,25 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  background: var(--accent-color--);
+  background: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border-color: var(--accent-color--);
+  border-color: $accent-color;
   padding: 10px 28px 10px 28px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.06em;
-  color: var(--primary-bg-color--);
+  color: $primary-bg-color;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-form-btn:hover,
 .subscribe-form-btn:focus {
-  background-color: var(--button-hover-color--);
+  background-color: $button-hover-color;
 }
 
 .icon-send {
-  fill: var(--primary-bg-color--);
+  fill: $primary-bg-color;
 }

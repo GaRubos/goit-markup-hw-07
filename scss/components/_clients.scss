@@ -21,7 +21,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--icon-color--);
+  fill: $icon-color;
   transition-property: border-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -29,6 +29,6 @@
 
 .clients-box:hover,
 .clients-box:focus {
-  border-color: var(--accent-color--);
-  fill: var(--accent-color--);
+  border-color: $accent-color;
+  fill: $accent-color;
 }

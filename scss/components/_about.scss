@@ -30,6 +30,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
-  color: var(--primary-bg-color--);
-  background-color: var(--about-item-desc-color--);
+  color: $primary-bg-color;
+  background-color: $about-item-desc-color;
 }

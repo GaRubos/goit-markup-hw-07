@@ -1,10 +1,10 @@
 .page-header {
-  border-bottom: var(--header-border-color--);
-  border: 1px solid var(--header-border-color--);
-}
-.page-header .container {
-  display: flex;
-  align-items: center;
+  border-bottom: $header-border-color;
+  border: 1px solid $header-border-color;
+  .container {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .site-nav {
@@ -12,33 +12,34 @@
   align-items: center;
 }
 
-.site-nav-logo {
-  color: var(--accent-color--);
+.site-logo {
+  color: $accent-color;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
-.site-nav-logo-studio {
-  color: var(--primary-text-color--);
+
+  &__studio {
+    color: $primary-text-color;
+  }
 }
 
-.site-nav-list {
+.site-nav__list {
   display: flex;
   gap: 50px;
   margin-left: 93px;
 }
 
-.site-nav-item {
+.site-nav__item {
   position: relative;
 }
 
-.site-nav-item .link {
+.site-nav__item .link {
   display: block;
   padding: 32px 0;
   text-decoration: none;
-  color: var(--primary-text-color--);
+  color: $primary-text-color;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -46,7 +47,7 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav-item .current::after {
+.site-nav__item .current::after {
   position: absolute;
   bottom: -2px;
   left: 0;
@@ -54,7 +55,7 @@
   display: inline-block;
   width: 100%;
   height: 4px;
-  background: var(--accent-color--);
+  background: $accent-color;
   border-radius: 2px;
   opacity: 1;
 }
@@ -75,18 +76,18 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--secondary-text-color--);
+  color: $secondary-text-color;
   padding: 32px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav-list .link:hover,
+.site-nav__list .link:hover,
 .contact-list .link:hover,
-.site-nav-list .link:focus,
+.site-nav__list .link:focus,
 .contact-list .link:focus {
-  color: var(--accent-color--);
+  color: $accent-color;
   fill: currentColor;
 }
 .site-nav-list .current {
-  color: var(--accent-color--);
+  color: $accent-color;
 }

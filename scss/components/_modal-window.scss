@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--backdrop-color--);
+  background-color: $backdrop-color;
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
@@ -29,7 +29,7 @@
   width: 528px;
   min-height: 581px;
   padding: 40px;
-  background-color: var(--primary-bg-color--);
+  background-color: $primary-bg-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -56,8 +56,8 @@
 
 .btn-modal:hover,
 .btn-modal:focus {
-  border-color: var(--accent-color--);
-  fill: var(--accent-color--);
+  border-color: $accent-color;
+  fill: $accent-color;
 }
 
 body.modal-open {
@@ -73,7 +73,7 @@ body.modal-open {
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color--);
+  color: $primary-text-color;
 }
 
 .form-callback__label {
@@ -82,7 +82,7 @@ body.modal-open {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: var(--secondary-text-color--);
+  color: $secondary-text-color;
   margin-bottom: 4px;
   cursor: pointer;
 }
@@ -116,20 +116,20 @@ body.modal-open {
 }
 
 .form-callback__input:hover {
-  border-color: var(--accent-color--);
+  border-color: $accent-color;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-callback__field:hover .form-icon {
-  fill: var(--accent-color--);
+  fill: $accent-color;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-callback__input:focus {
-  border-color: var(--accent-color--);
+  border-color: $accent-color;
   outline: none;
 }
 .form-callback__input:focus + .form-callback__icon {
-  fill: var(--accent-color--);
+  fill: $accent-color;
 }
 
 .form-callback__comment {
@@ -144,7 +144,7 @@ body.modal-open {
 
 .form-callback__comment:hover,
 .form-callback__comment:focus {
-  border-color: var(--accent-color--);
+  border-color: $accent-color;
   outline: none;
 }
 
@@ -169,7 +169,7 @@ body.modal-open {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color--);
+  color: $secondary-text-color;
   cursor: pointer;
 }
 
@@ -179,13 +179,13 @@ body.modal-open {
   left: 0;
   transform: translateY(-50%);
   fill: transparent;
-  border: 2px solid var(--primary-text-color--);
+  border: 2px solid $primary-text-color;
   border-radius: 2px;
 }
 
 .checkbox-input:checked + .icon-check {
-  fill: var(--primary-bg-color--);
-  background-color: var(--accent-color--);
+  fill: $primary-bg-color;
+  background-color: $accent-color;
   border: none;
 }
 
@@ -194,7 +194,7 @@ body.modal-open {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--accent-color--);
+  color: $accent-color;
 }
 
 .form-callback__btn {
@@ -202,7 +202,7 @@ body.modal-open {
   display: block;
   width: 200px;
   padding: 10px 0;
-  background: var(--accent-color--);
+  background: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -211,11 +211,11 @@ body.modal-open {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: var(--primary-bg-color--);
+  color: $primary-bg-color;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-callback-btn:hover,
 .form-callback-btn:focus {
-  background-color: var(--button-hover-color--);
+  background-color: $button-hover-color;
 }
