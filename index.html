@@ -26,24 +26,27 @@
           <!-- Навигация сайта-->
           <ul class="site-nav__list list">
             <li class="site-nav__item">
-              <a href="./index.html" class="link current">Студія</a>
+              <a href="./index.html" class="site-nav__link link current">Студія</a>
             </li>
-            <li class="site-nav__item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
-            <li class="site-nav__item"><a href="/" class="link">Контакти</a></li>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="ite-nav__link link">Портфоліо</a>
+            </li>
+            <li class="site-nav__item"><a href="/" class="site-nav__link link">Контакти</a></li>
           </ul>
         </nav>
+
         <!-- Контакты -->
         <ul class="contact-list list">
-          <li class="contact-list-item">
+          <li class="contact-list__item">
             <a href="mailto:info@devstudio.com" class="link">
-              <svg width="16" height="12" class="contact-icon">
+              <svg width="16" height="12" class="contact-list__icon">
                 <use href="./images/svg/icons.svg#icon-email"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="contact-list-item">
+          <li class="contact-list__item">
             <a href="tel:+380961111111" class="link">
-              <svg width="16" height="12" class="contact-icon">
+              <svg width="16" height="12" class="contact-list__icon">
                 <use href="./images/svg/icons.svg#icon-phone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -54,7 +57,6 @@
 
     <main>
       <!-- Герой -->
-
       <section class="hero">
         <div class="container">
           <h1 class="section-title">Ефективні рішення для вашого бізнесу</h1>
@@ -68,45 +70,47 @@
         <div class="container">
           <h2 class="section-title visually-hidden">Наші переваги</h2>
           <ul class="benefits-list list">
-            <li class="benefits-item">
-              <div class="benefits-icon">
+            <li class="benefits-list__item">
+              <div class="benefits-list__icon">
                 <svg width="70" height="70">
                   <use href="./images/svg/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="title">Увага до деталей</h3>
-              <p class="descr">
+              <h3 class="benefits-list__title">Увага до деталей</h3>
+              <p class="benefits-list__description">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-            <li class="benefits-item">
-              <div class="benefits-icon">
+            <li class="benefits-list__item">
+              <div class="benefits-list__icon">
                 <svg width="70" height="70">
                   <use href="./images/svg/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="title">Пунктуальність</h3>
-              <p class="descr">
+              <h3 class="benefits-list__title">Пунктуальність</h3>
+              <p class="benefits-list__description">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
-            <li class="benefits-item">
-              <div class="benefits-icon">
+            <li class="benefits-list__item">
+              <div class="benefits-list__icon">
                 <svg width="70" height="70">
                   <use href="./images/svg/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="title">Планування</h3>
-              <p class="descr">Так само консультація з широким активом значною мірою зумовлює.</p>
+              <h3 class="benefits-list__title">Планування</h3>
+              <p class="benefits-list__description">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
             </li>
-            <li class="benefits-item">
-              <div class="benefits-icon">
+            <li class="benefits-list__item">
+              <div class="benefits-list__icon">
                 <svg width="70" height="70">
                   <use href="./images/svg/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="title">Сучасні Технолології</h3>
-              <p class="descr">
+              <h3 class="benefits-list__title">Сучасні Технолології</h3>
+              <p class="benefits-list__description">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
@@ -120,17 +124,17 @@
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="about-list list">
-            <li class="about-item">
+            <li class="about-list__item">
               <img src="./images/img.jpg" width="370" alt="чоловік пише код" />
-              <p class="about-item-descr">Десктопні додатки</p>
+              <p class="about-list__description">Десктопні додатки</p>
             </li>
-            <li class="about-item">
+            <li class="about-list__item">
               <img src="./images/img1.jpg" width="370" alt="мобільні інтерфейси" />
-              <p class="about-item-descr">Мобільні додатки</p>
+              <p class="about-list__description">Мобільні додатки</p>
             </li>
-            <li class="about-item">
+            <li class="about-list__item">
               <img src="./images/img2.jpg" width="370" alt="людина обірає колір" />
-              <p class="about-item-descr">Дизайнерські рішення</p>
+              <p class="about-list__description">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
